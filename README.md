@@ -26,16 +26,25 @@ Built as an extension of the MacroTrackr project.
 
 Uses:
 
-google/flan-t5-small
+mistralai/Mistral-7B-Instruct
 
-Instruction-tuned transformer model from Hugging Face.
+- Instruction-tuned large language model from Mistral AI.
 
 Chosen because:
 
-- CPU-friendly
-- Low memory usage
-- Fast inference
-- Good instruction-following capability
+- Strong instruction-following performance
+
+- Significantly more capable than small T5-class models
+
+- High-quality natural language generation
+
+- Good reasoning ability for structured outputs (e.g., recipes, formatting, constraints)
+
+- Optimized transformer architecture with efficient attention
+
+- Open-weight model suitable for self-hosted deployments
+
+- Works well with quantization (4-bit / 8-bit) for reduced memory usage
 
 ---
 

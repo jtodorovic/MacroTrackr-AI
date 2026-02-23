@@ -1,0 +1,14 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+redis==5.0.4
+
+pydantic==2.6.4
+python-dotenv==1.0.1
+
+transformers==4.39.3
+torch==2.2.1
+accelerate==0.29.2
+
+bitsandbytes==0.43.1   # optional (for 4-bit/8-bit quantization)
+sentencepiece==0.1.99  # required for many HF tokenizers
